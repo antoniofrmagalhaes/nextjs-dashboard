@@ -17,7 +17,7 @@ const Sidenav: React.FC = () => {
       <Container open={open}>
         <OpenNavButon open={open} toggleHandler={() => setOpen(!open)} />
         <Flex height="100%" flexDirection="column">
-          <Flex height="50px" borderBottom="1px" borderColor="gray.300"></Flex>
+          <Flex height="49px" borderBottom="1px" borderColor="gray.300"></Flex>
           <Profile />
           <Navigator config={config} />
         </Flex>
