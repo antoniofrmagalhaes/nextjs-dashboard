@@ -10,7 +10,7 @@ export const MenuButton = styled.div<IMenuButtonProps>`
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 8px;
+  top: 12px;
   right: -38px;
   border-radius: 3px;
   ${props =>

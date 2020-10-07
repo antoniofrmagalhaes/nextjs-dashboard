@@ -4,7 +4,7 @@ import { CloseButton as ChakraCloseButton } from '@chakra-ui/core'
 export const Container = styled.div`
   position: relative;
   width: 100%;
-  height: 49px;
+  height: 48px;
   display: flex;
   align-items: center;
   padding: 0 16px;
