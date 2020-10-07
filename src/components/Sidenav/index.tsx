@@ -20,15 +20,6 @@ const Sidenav: React.FC = () => {
           <Flex height="50px" borderBottom="1px" borderColor="gray.300"></Flex>
           <Profile />
           <Navigator config={config} />
-          {/* <Flex
-            height="50px"
-            justifyContent="center"
-            alignItems="center"
-            borderTop="1px"
-            borderColor="gray.300"
-          >
-            <Text>&copy; food company inc.</Text>
-          </Flex> */}
         </Flex>
       </Container>
     </OutsideClickHandler>
